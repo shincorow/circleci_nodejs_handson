@@ -14,3 +14,8 @@ CircleCIでのテストのほか、TravisCI と GitHub Actions の使用例も�
 | Unit test     | [jest](https://jestjs.io/) |
 | CI Service    | [CircleCI](https://circleci.com/), [TraviceCi](https://travis-ci.org/), [GitHub Actions](https://github.com/features/actions)
 
+### 課題
+
+1. このリポジトリをクローンして自分のリポジトリに置き換えてGitHubにPUSHしてみましょう。
+1. 自分のリポジトリにPUSHしたコードを好きなCIサービス上で実行してみましょう。
+1. テストカバレッジが100%となるようにテストコードを書いてみましょう。
