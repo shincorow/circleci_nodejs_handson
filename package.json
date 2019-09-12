@@ -4,12 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest && codecov"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "codecov": "^3.5.0",
     "jest": "^24.9.0"
   },
   "jest": {
@@ -20,5 +21,5 @@
       "**/__tests__/*.test.js"
     ],
     "collectCoverage": true
-  }  
+  }
 }
