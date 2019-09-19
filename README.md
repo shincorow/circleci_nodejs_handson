@@ -12,7 +12,7 @@ CircleCIでのテストのほか、TravisCI と GitHub Actions の使用例も�
 | ------------- | ---------------------------------------------------- |
 | Language      | [Node.js](https://nodejs.org/ja/) |
 | Unit test     | [jest](https://jestjs.io/) |
-| CI Service    | [CircleCI](https://circleci.com/), [TraviceCi](https://travis-ci.org/), [GitHub Actions](https://github.com/features/actions)
+| CI Service    | [CircleCI](https://circleci.com/), [TravisCI](https://travis-ci.org/), [GitHub Actions](https://github.com/features/actions)
 
 ### 課題
 
