@@ -22,5 +22,8 @@
       "**/__tests__/*.test.js"
     ],
     "collectCoverage": true
+  },
+  "dependencies": {
+    "is-buffer": "^2.0.4"
   }
 }

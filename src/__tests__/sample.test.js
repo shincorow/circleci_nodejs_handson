@@ -14,7 +14,24 @@ test('-30 + -21 は -51', () => {
     expect(sum(-30, -21)).toBe(-51);
 });
 
-test('', () => {
+test('Class const', () => {
     let clazz = new Clazz(1, 2);
     expect(clazz.value).toBe(3);
-}) 
+})
+
+test('class me', () => {
+    let clazz = new Clazz(2, 2);
+    expect(clazz.getValue()).toBe(4);
+})
+
+test('hello yy', () => {
+    expect(hello('yy')).toBe('yeah');
+})
+
+test('hello he', () => {
+    expect(hello('he')).toBe('hello');
+})
+
+test('hello bo', () => {
+    expect(hello('bo')).toBe('boy');
+})
