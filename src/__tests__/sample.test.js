@@ -35,3 +35,7 @@ test('hello he', () => {
 test('hello bo', () => {
     expect(hello('bo')).toBe('boy');
 })
+
+test('hello some', () => {
+    expect(hello('someya')).toBe('yeah');
+})
